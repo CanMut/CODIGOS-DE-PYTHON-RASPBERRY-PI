@@ -1,6 +1,8 @@
-import MAX6675.MAX6675 as MAX6675
-import time
-CSK = 25
+import MAX6675.MAX6675 as MAX6675   #Importamos la libreria del modulo a usar.
+import time                         #Importamos la libreria relacionada al tiempo.
+
+#Definimos nuestros puestos GPIO a usar.
+CSK = 25 
 CS = 24
 DO = 18
 
