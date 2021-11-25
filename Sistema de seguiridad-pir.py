@@ -1,8 +1,8 @@
 from picamera import PiCamera
 from time import sleep
 import smtplib
-gmail_user = 'raspberrypiemisor@gmail.com'  
-gmail_password = 'Raspberrypi3b+'
+gmail_user = 'correoemisor@gmail.com'  
+gmail_password = 'Contraseña'
 import time
 from datetime import datetime
 from email.mime.image import MIMEImage
@@ -10,8 +10,8 @@ from email.mime.multipart import MIMEMultipart
 import RPi.GPIO as GPIO
 import time
 
-toaddr = 'raspberrypireceptor@gmail.com'
-me = 'raspberrypiemisor@gmail.com'
+toaddr = 'correoreceptor@gmail.com'
+me = 'correoemisor@gmail.com'
 Subject='Alerta de Seguridad'
 
 GPIO.setmode(GPIO.BCM)
