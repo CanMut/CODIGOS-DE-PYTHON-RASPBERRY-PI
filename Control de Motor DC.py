@@ -17,6 +17,3 @@ while True:
     GPIO.output(In1,GPIO.HIGH)
     GPIO.output(In2,GPIO.LOW)
     pwm.ChangeDutyCycle(100)
-    
-
-    
